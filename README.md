@@ -47,9 +47,14 @@ Hands-on builds that combine the commands above. Do them in order on one Ubuntu 
 | 3 | [Automated backups](linux/projects/03-automated-backups.md) | A backup script with retention, a systemd timer, failure alerts, a tested restore |
 | 4 | [Deploy a Docker app](linux/projects/04-deploy-docker-app.md) | Flask + Redis with Compose, Nginx reverse proxy, HTTPS, start on boot, rollbacks |
 
-## Ubuntu
+## Distribution-specific commands
 
-- [General installs (MySQL) and command-line basics](ubuntu/generalinstall.md)
+How to update, install, download, start services, and use the firewall on each distribution family.
+
+- [Ubuntu / Debian commands](ubuntu/ubuntu-commands.md): `apt`, PPAs, `.deb` files, snap, `ufw`, AppArmor, Netplan
+- [CentOS / RHEL / Rocky / Alma commands](centos/centos-commands.md): `dnf`/`yum`, `rpm`, EPEL, `firewalld`, SELinux, `nmcli`
+- [Ubuntu vs CentOS side-by-side](linux/ubuntu-vs-centos.md): one table per topic, plus a script that works on both
+- [Ubuntu: installing MySQL and command-line basics](ubuntu/generalinstall.md)
 
 ## Getting help on any command
 
