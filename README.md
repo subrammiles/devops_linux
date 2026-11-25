@@ -32,6 +32,21 @@ Start these after finishing the basics.
 | 5 | [Monitoring and troubleshooting](linux/intermediate/monitoring-and-troubleshooting.md) | Load, memory, I/O, network checks, `lsof`, `strace`, `sar` |
 | 6 | [Docker basics](linux/intermediate/docker-basics.md) | Containers, images, volumes, Dockerfile, Compose |
 
+## Example scripts
+
+[linux/scripts/](linux/scripts/README.md) has 12 short, commented Bash scripts, from `hello world` to disk alerts, backups and service checks. Its README explains how to give a script execute permission (`chmod +x`), the different ways to run a script, and how to fix common errors.
+
+## Projects
+
+Hands-on builds that combine the commands above. Do them in order on one Ubuntu server; a throwaway cloud or local VM is ideal.
+
+| # | Project | You will build |
+|---|---------|----------------|
+| 1 | [Secure a fresh server](linux/projects/01-harden-a-server.md) | Key-only SSH, no root login, `ufw`, fail2ban, automatic security updates |
+| 2 | [Nginx with HTTPS](linux/projects/02-nginx-https.md) | A static site, server blocks, security headers, Let's Encrypt with auto-renewal |
+| 3 | [Automated backups](linux/projects/03-automated-backups.md) | A backup script with retention, a systemd timer, failure alerts, a tested restore |
+| 4 | [Deploy a Docker app](linux/projects/04-deploy-docker-app.md) | Flask + Redis with Compose, Nginx reverse proxy, HTTPS, start on boot, rollbacks |
+
 ## Ubuntu
 
 - [General installs (MySQL) and command-line basics](ubuntu/generalinstall.md)

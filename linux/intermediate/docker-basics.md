@@ -217,4 +217,4 @@ docker run --rm -it --entrypoint sh myapp:1.0   # Start a shell in an image that
 4. Start the Compose example and connect to the database with `docker compose exec db psql -U postgres`.
 5. Clean up with `docker compose down -v` and `docker system prune`.
 
-Previous: [monitoring-and-troubleshooting.md](monitoring-and-troubleshooting.md)
+Previous: [monitoring-and-troubleshooting.md](monitoring-and-troubleshooting.md) · Next: [Project 1 — secure a fresh server](../projects/01-harden-a-server.md)
