@@ -199,4 +199,4 @@ bash -x script.sh      # Print each command as it runs
 shellcheck script.sh   # Lint for common mistakes (sudo apt install shellcheck)
 ```
 
-Previous: [networking.md](networking.md)
+Previous: [networking.md](networking.md) · Next: [Intermediate — environment and .bashrc](../intermediate/environment-and-bashrc.md)

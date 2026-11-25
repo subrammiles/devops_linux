@@ -19,6 +19,19 @@ Notes and tutorials for learning Linux for DevOps. Work through them in order; e
 | 11 | [Networking](linux/basic/networking.md) | `ip`, `ping`, `ss`, `curl`, `ssh`, `scp`, `ufw` |
 | 12 | [Shell scripting](linux/basic/shell-scripting.md) | variables, conditions, loops, functions |
 
+## Linux intermediate
+
+Start these after finishing the basics.
+
+| # | Topic | What it covers |
+|---|-------|----------------|
+| 1 | [Environment and `.bashrc`](linux/intermediate/environment-and-bashrc.md) | `export`, `PATH`, aliases, startup files, history shortcuts |
+| 2 | [Archives and compression](linux/intermediate/archives-and-compression.md) | `tar`, `gzip`, `xz`, `zip`, `zgrep` |
+| 3 | [Disks and storage](linux/intermediate/disks-and-storage.md) | `lsblk`, `df`, `du`, `mount`, `/etc/fstab`, swap, LVM |
+| 4 | [Writing systemd services](linux/intermediate/systemd-services.md) | Unit files, overrides, hardening, timers |
+| 5 | [Monitoring and troubleshooting](linux/intermediate/monitoring-and-troubleshooting.md) | Load, memory, I/O, network checks, `lsof`, `strace`, `sar` |
+| 6 | [Docker basics](linux/intermediate/docker-basics.md) | Containers, images, volumes, Dockerfile, Compose |
+
 ## Ubuntu
 
 - [General installs (MySQL) and command-line basics](ubuntu/generalinstall.md)
